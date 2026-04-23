@@ -43,7 +43,7 @@ picom --unredir-if-possible --backend glx --vsync &
 setxkbmap -option "grp:caps_toggle"
 
 # 									     for keyboard ⟡
-/home/kirzhdd/sets/scripts/keyboard.sh
+./scripts/keyboard.sh
 
 #┗━──────────────────────────────────────────────────━┛
 
