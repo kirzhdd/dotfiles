@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /bin/bash
 # ______   _______  _______           _______          
 #(  ___ \ (  ____ \(  ____ )|\     /|(       )         
 #| (   ) )| (    \/| (    )|| )   ( || () () |         
@@ -43,7 +43,10 @@ picom --unredir-if-possible --backend glx --vsync &
 setxkbmap -option "grp:caps_toggle"
 
 # 									     for keyboard ⟡
-./scripts/keyboard.sh
+/home/kirzhdd/sets/scripts/keyboard.sh
+
+# 											 notifies ⟡
+dunst&
 
 #┗━──────────────────────────────────────────────────━┛
 
